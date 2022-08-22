@@ -41,7 +41,7 @@ public class C02_BestBuyAssertions {
     }
     @Test
     public void test02() {
-        //○ titleTest => Sayfa başlığının “Rest” içermediğini(contains) test edin
+        //○ titleTest => Sayfa başlığının “Rest” içermediğini(contains) test edin.
         String istenmeyenKelime="Rest";
         String actualTitle=driver.getTitle();
         Assert.assertFalse(actualTitle.contains(istenmeyenKelime));
